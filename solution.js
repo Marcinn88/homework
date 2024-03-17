@@ -1,4 +1,4 @@
-func get_median_of_first_week_expenses(expenses) {
+function get_median_of_first_week_expenses(expenses) {
     result = null
     let filteredExpenses = [] 
     for (const month in expenses){
